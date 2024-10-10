@@ -6,6 +6,8 @@
 	+ -d <nombre> -> Te borra la rama que le digas
 	+ -D <nombre> -> Te fuerza el borrado de la rama.
 - " remote add origin <url> -> Añade un repositorio remoto a tu origen.
+	+ rm <nombre> -> Borrar el repositorio con ese nombre.
+	+ -v -> Ve los repositorios que hay
 - " config --global user.name "nombre" -> Configura tu username.
 - " " "  user.email <email> -> Configura tu email.
 - " " " alias.<abreviatura> <comando a abreviar> -> Crea un alias para llamar a un comando.
