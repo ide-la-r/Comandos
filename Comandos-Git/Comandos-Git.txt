@@ -20,6 +20,10 @@
 	+ -p -> Muestra todos los cambios reales del parche.
 	+ --graph -> Muestra graficamente los nodos y ramas.
 	+ --pretty -> Más graficamente.
+- " blame <nombre archivo> -> Te dice que hay en el fichero y que usuario ha hecho los cambios.
+- " stash -> Guardar los archivos de la stager area y del working d emanera temporal en ese cajon.
+	+ drop -> Lo que esta en stash lo elimina.
+	+ pop -> Recupera los archivos que estan en el stash
 - " clone <url> -> Clona el repositorio remoto en local.
 - " push -u origin main -> Sube archivos al repositorio origin de tu rama main.
 - " pull -> Descarga los archivos del repositorio remoto.
